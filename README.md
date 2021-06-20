@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://social-media-dashboard-with-theme-switcher-pink.vercel.app/
+- Live Site URL: 
 
 ## My Process
 
