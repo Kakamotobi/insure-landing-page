@@ -8,8 +8,8 @@
 	--vryLightGrey: hsl(0, 0%, 98%);
 	/* Typography */
 	--fs: 16px;
-	--ff-headings: "DM Serif Display", serif; /* Headings */
-	--ff-body: "Karla", sans-serif; /* Body */
+	--ff-headings: "DM Serif Display", serif;
+	--ff-body: "Karla", sans-serif;
 }
 
 /* Footer */
