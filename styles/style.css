@@ -1,0 +1,22 @@
+:root {
+	/* Primary */
+	--drkViolet: hsl(256, 26%, 20%);
+	--greyBlue: hsl(216, 30%, 68%);
+	/* Neutral */
+	--vryDrkViolet: hsl(270, 9%, 17%);
+	--drkGreyViolet: hsl(273, 4%, 51%);
+	--vryLightGrey: hsl(0, 0%, 98%);
+	/* Typography */
+	--fs: 16px;
+	--ff-headings: "DM Serif Display", serif; /* Headings */
+	--ff-body: "Karla", sans-serif; /* Body */
+}
+
+/* Footer */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
