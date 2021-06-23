@@ -89,11 +89,9 @@ h4 {
 .hero {
 	width: 100%;
 	height: 450px;
-}
-
-.hero__image {
-	width: 100%;
-	height: inherit;
+	background-image: url(images/image-intro-mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .intro {
