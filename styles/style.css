@@ -457,3 +457,11 @@ footer {
 		text-decoration: underline;
 	}
 }
+
+/* --Navbar Toggle-- */
+.active {
+	display: block;
+}
+.inactive {
+	display: none;
+}
