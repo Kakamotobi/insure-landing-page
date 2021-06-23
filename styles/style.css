@@ -5,7 +5,7 @@
 	/* Neutral */
 	--vryDrkViolet: hsl(270, 9%, 17%);
 	--drkGreyViolet: hsl(273, 4%, 51%);
-	--vryLightGrey: hsl(0, 0%, 98%);
+	--vryLtGrey: hsl(0, 0%, 98%);
 	/* Typography */
 	--fs: 16px;
 	--ff-headings: "DM Serif Display", serif;
@@ -24,6 +24,15 @@ body {
 	min-height: 100vh;
 	font-family: var(--ff-body);
 }
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--ff-headings);
+}
+
 /* Navbar */
 .navbar {
 	height: 80px;
@@ -58,7 +67,7 @@ body {
 
 .navbar__menu li a {
 	text-decoration: none;
-	color: var(--vryLightGrey);
+	color: var(--vryLtGrey);
 	font-size: 1.3rem;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -72,6 +81,55 @@ body {
 
 .navbar__icon-close {
 	display: none;
+}
+
+/* Hero & Intro*/
+.hero {
+	width: 100%;
+	height: 450px;
+}
+
+.hero__image {
+	width: inherit;
+}
+
+.intro {
+	width: 100%;
+	height: 500px;
+	padding-inline: 26px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: url(images/bg-pattern-intro-left-mobile.svg),
+		url(images/bg-pattern-intro-right-mobile.svg);
+	background-repeat: no-repeat;
+	background-position: top left, right 345px;
+	background-color: var(--drkViolet);
+	color: var(--vryLtGrey);
+}
+
+.intro__title {
+	font-size: 2.8rem;
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+
+.intro__desc {
+	line-height: 1.8;
+	margin-bottom: 35px;
+}
+
+.links {
+	padding: 12px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	color: var(--vryLtGrey);
+	letter-spacing: 2px;
+	border: 1px solid var(--vryLtGrey);
 }
 
 /* Footer */
