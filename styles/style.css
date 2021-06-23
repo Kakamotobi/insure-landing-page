@@ -149,7 +149,7 @@ main {
 }
 
 .main-title {
-	margin-top: 140px;
+	margin-top: 185px;
 	margin-bottom: 75px;
 	font-size: 3rem;
 	font-weight: 400;
@@ -157,12 +157,13 @@ main {
 
 .main-title::before {
 	content: "";
-	width: 150px;
+	width: 40%;
 	height: 1px;
 	margin-bottom: 45px;
 	display: block;
-	transform: translateX(-50%);
-	transform: translateX(50%);
+	position: absolute;
+	left: 30%;
+	transform: translateY(-45px);
 	background: var(--greyBlue);
 }
 
