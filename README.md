@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://insure-landing-page-eosin-mu.vercel.app/
 
 ## My Process
 
@@ -32,6 +32,8 @@ Users should be able to:
 - JS
 
 ### What I learned
+
+- Mobile navbar toggle.
 
 ## Author
 
