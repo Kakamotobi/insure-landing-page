@@ -1,29 +1,21 @@
-# social-media-dashboard-with-theme-switcher
+# insure-landing-page
 
-## Table of Contents
+## Description
 
-- [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+A landing page responsive layout challenge from frontendmentor.io.
 
-## Overview
-
-### The Challenge
+## The Challenge
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Links
+## Link
 
 - Live Site URL: https://insure-landing-page-eosin-mu.vercel.app/
 
-## My Process
+## Development Process
 
 ### Built With
 
@@ -31,11 +23,6 @@ Users should be able to:
 - CSS
 - JS
 
-### What I learned
+### Applied Concepts
 
-- Mobile navbar toggle.
-
-## Author
-
-- GitHub - [Kakamotobi](https://github.com/Kakamotobi)
-- Frontend Mentor - [@Kakamotobi](https://www.frontendmentor.io/profile/Kakamotobi)
+- Responsive navbar for mobile devices.
